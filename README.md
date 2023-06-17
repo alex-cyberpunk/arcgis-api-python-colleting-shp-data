@@ -13,7 +13,11 @@ Fluxo executado semanalmente pela rotina : atualiza_bases.py
 -Insere no sharepoint
 
 Lista do sharepoint (iteracao com o fundiario ):
+![image](https://github.com/alex-cyberpunk/arcgis-api-python/assets/80361639/77a80e98-93a4-4183-93a5-a8b2383472f2)
+![image](https://github.com/alex-cyberpunk/arcgis-api-python/assets/80361639/8125d4c3-5599-4c74-a957-fa7286715158)
 
-saidas (.shp ,.kmz , novas propriedades inseridas...):
+Legenda: erros roxos recusaram parte do pedido , amarelo o pedido inteiro , verdes aprovados e vermelhos ainda em aprovacao
+
+Saidas (.shp ,.kmz , novas propriedades inseridas...):
 
 Codigos de content manegement (cria os mapas base desenvolvidos nessa solucao): content_manegement.py 
