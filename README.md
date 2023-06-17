@@ -22,3 +22,9 @@ Legenda: erros roxos recusaram parte do pedido , amarelo o pedido inteiro , verd
 Saidas (.shp ,.kmz , novas propriedades inseridas...):
 
 Codigos de content manegement (cria os mapas base desenvolvidos nessa solucao): content_manegement.py 
+
+
+
+Sugestoes de melhorias:
+
+1-
