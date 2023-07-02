@@ -4,7 +4,9 @@
   Uma nova lideranca optou por ao inves de usar um banco de dados postgresql (a qual havia sido testado [antes](https://github.com/alex-cyberpunk/Postgresql))  usar o arcgis online, ja que era uma produto pronto e com suporte tecnico. 
   Dessa forma era necessario uma solucao para montar os mapas dos projetos , atualiza-los e fazer a medicao de metricas de maneira que nao causa-se mais traballho ao fundiario e ate faciltando-o se possivel. Entao foi implementado library api-python do arcgis usando o ambiente notebooks do arcgis online. De inicio foi disponibilizado apenas uma licenca creator entao adaptou-se uma solucao que ligava o sharepoint lists ( como interface onde membros do fundiario poderiam fazer e monitorar pedidos) . Capturando os anexos de shapefile por python , fazendo verificacoes e marcando o tipo de erro no shapefile e entao se aprovado , iria entrar nos feature layers e marcado como "concluido" no sharepoint e se identificado um erro (erros de status , erro de geometria, erro de interseccao) iria marcar no pedido o tipo de erro identificado. Apos isso e gerado arquivos kmzs e shapefiles atualizados que entao sao inseridos no sharepoint. A principio tambem foi implementado a insercao das areas em planilha de controle porem isso e temporario ate o sistema de contratos internos da empresa estivesse pronto , ai o arcgis iria mandar os dados pra esse sistema. 
 
-## Fluxo executado semanalmente pela rotina : atualiza_bases.py
+## Implementacao
+
+### Fluxo executado semanalmente pela rotina : atualiza_bases.py
 
 -Captura .shps da lista do sharepoint
 
@@ -18,7 +20,7 @@
 
 *imagem esquematica do fluxograma de aprovacao dos dados geograficos da propriedade*
 
-## Lista do sharepoint (iteracao com o fundiario ):
+### Lista do sharepoint (iteracao com o fundiario ):
 
 ![image](https://github.com/alex-cyberpunk/arcgis-api-python/assets/80361639/77a80e98-93a4-4183-93a5-a8b2383472f2)
 ![image](https://github.com/alex-cyberpunk/arcgis-api-python/assets/80361639/8125d4c3-5599-4c74-a957-fa7286715158)
