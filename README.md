@@ -1,4 +1,4 @@
-# Uso do arcgis-api-python para leitura e verificacao de shapefiles afim de obter uma base de dados confiavel
+# The use of arcgis-api-python for reading and verifying shapefiles aims to obtain a reliable geospatial database.
 ## Contexto:
   Context:
 Before the implementation of this project, properties were manually added by receiving files sent via email, and .kmz files were generated (using the [Plugin EER Fundiario](https://github.com/alex-cyberpunk/Plugins-QGIS/tree/Plugin_EER_fundiario/Plugin_EER_fundiario )) through these .shp files, and metrics were calculated using items from a spreadsheet. The geospatial database proved to be the best solution to ensure a reliable foundation where metrics could be calculated with more confidence, and .kmz files could be generated more frequently for the fundiario department.
