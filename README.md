@@ -11,10 +11,15 @@ Under new leadership, instead of using a PostgreSQL database (which had been tes
 ### Weekly Flow executed by the routine: atualiza_bases.py
 
 -Capture .shp files from the SharePoint list.
+
 -Perform error checks (intersection, status, etc.).
+
 -Insert information into maps.
+
 -Output (.kmz, .shp).
+
 -Insert into SharePoint.
+
 -Diagram of the geographic property data approval flow
 
 ### SharePoint list (interaction with the fundiario department):
@@ -29,5 +34,5 @@ Outputs (.shp, .kmz, newly inserted properties, etc.):
 
 ## Suggestions for improvements:
 
-1-Instead of using SharePoint lists, consider using some of ArcGIS's own solutions, such as using a site (ArcGIS Hub or ArcGIS Experience Builder) where topographers could check area by area, which would be sent to them through forms provided by ArcGIS that can be used by anyone. This would make it much easier for topographers to verify if the intersection with other properties is high. It would also simplify monitoring. However, this would require an editor license for each topographer, and it would be necessary to check if it's possible to implement a button on the site capable of executing the ArcGIS Notebooks code with the creator's login and password. The rest of the implementation appears feasible.
+1-Instead of using SharePoint lists, consider using some of ArcGIS's own solutions, such as using a site (ArcGIS Hub or ArcGIS Experience Builder) where topographers could check area by area, which would be sent to them through forms provided by ArcGIS that can be used by anyone. This would make it much easier for topographers to verify if the intersection with other properties is high. It would also simplify monitoring. However, this would require an editor license for each topographer, and it would be necessary to check if it's possible to implement a button on the site capable of executing the ArcGIS Notebooks code with the creator's login and password. The rest of the implementation appears feasible. The project is in [development](https://github.com/alex-cyberpunk/site_topografia)
 
